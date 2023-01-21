@@ -12,32 +12,12 @@ import java.io.*;
 import java.util.stream.IntStream;
 import java.util.Collections;
 
-interface Gdh{
-    int a=9;
-    void func();
-}
-class A implements Gdh{
-    public void func(){
-        System.out.println("jv");
-        }
-}
-abstract class abs{
-    abstract void func();
-}
-class B extends abs{
-    void func(){
-        System.out.println("jv");
-    }
-}
+
 public class Question {
-
-
     public static void main(String[] args) {
-    A a = new A();
-        System.out.println(a.a);
 
-
+        for(char i='a'; i<='z'; i++){
+            System.out.println(i);
+        }
     }
-
 }
-
