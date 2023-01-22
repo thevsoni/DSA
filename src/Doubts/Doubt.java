@@ -66,16 +66,12 @@ public class Doubt {
 //11-12-22
 // doubt
 //arena
-//assignment ultron ans minimum
-//minimum operation
 
 //leetcode
-//binary search question (1011)
 //2517 , question
 //5 longest common substring and longest palindrome substring
 //why 516 is runnning true for "aacabdkacaa" this test case
 
 //conceptual doubts
-//static doubts of leetcode question 2265 how calling from main function bcs instance variable is same for any object
-//2265 ,how this is taking space
 //<< and <<< me difference
+//remote

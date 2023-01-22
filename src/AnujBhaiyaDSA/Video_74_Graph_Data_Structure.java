@@ -29,4 +29,26 @@ public class Video_74_Graph_Data_Structure {
 
 
     }
+
+    public static void buildGraphUsingMatrix(int v){
+                int[][] graph = new int[v][v];
+                //1 ->2
+                //2 ->3
+                //1 ->4
+                //1 ->5
+        graph[1][2] = 1;
+        graph[2][1] = 1;
+    }
+
+    public static void buildGraphUsingAdjacency(){
+        int v=10;
+
+        ArrayList<ArrayList<Integer>> al = new ArrayList<>();
+        for (int i=0; i<=10; i++){
+            al.add(new ArrayList<>());
+        }
+        //1->2
+        al.get(1).add(2);
+
+    }
 }

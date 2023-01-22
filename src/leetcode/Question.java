@@ -16,8 +16,6 @@ import java.util.Collections;
 public class Question {
     public static void main(String[] args) {
 
-        for(char i='a'; i<='z'; i++){
-            System.out.println(i);
-        }
+        System.out.println('d'-'0');
     }
 }
