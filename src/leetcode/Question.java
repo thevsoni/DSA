@@ -15,7 +15,20 @@ import java.util.Collections;
 
 public class Question {
     public static void main(String[] args) {
+        int[] height = {1,8,6,2,5,4,8,3,7};
+        Solution s = new Solution();
+        System.out.println(s.maxArea(height));
+    }
+}
+class Solution {
+    public int maxArea(int[] height) {
+        int ans = 0;
 
-        System.out.println('d'-'0');
+        for(int i=0; i<height.length; i++){
+            for(int j=0; j<i; j++){
+                ans = Math.max(ans,Math.min(height[i],height[j])*(i-j));
+            }
+        }
+        return ans;
     }
 }
