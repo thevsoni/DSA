@@ -15,19 +15,20 @@ import java.util.Collections;
 
 public class Question {
     public static void main(String[] args) {
-        int[] height = {1,8,6,2,5,4,8,3,7};
+
         Solution s = new Solution();
-        System.out.println(s.maxArea(height));
+        System.out.println(s.numWaterBottles(9,3));
     }
 }
 class Solution {
-    public int maxArea(int[] height) {
-        int ans = 0;
+    public int numWaterBottles(int numBottles, int numExchange) {
+        int ans = numBottles;
 
-        for(int i=0; i<height.length; i++){
-            for(int j=0; j<i; j++){
-                ans = Math.max(ans,Math.min(height[i],height[j])*(i-j));
-            }
+        while(numBottles>0){
+            ans += numBottles/numExchange;
+            int temp = numBottles%numExchange;
+            numBottles /= numExchange;
+            numBottles += temp;
         }
         return ans;
     }
