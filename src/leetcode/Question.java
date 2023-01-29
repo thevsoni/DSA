@@ -18,6 +18,8 @@ public class Question {
 
         Solution s = new Solution();
         System.out.println(s.numWaterBottles(9,3));
+        LinkedList<Integer> l = new LinkedList<>();
+
     }
 }
 class Solution {
