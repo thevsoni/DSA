@@ -68,11 +68,5 @@ public class Doubt {
 //arena
 
 //leetcode
-//2517 , question
-//5 longest common substring and longest palindrome substring
-//why 516 is runnning true for "aacabdkacaa" this test case
-//food distribution
+//1358
 
-//conceptual doubts
-//<< and <<< me difference
-//remote
