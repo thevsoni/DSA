@@ -68,5 +68,8 @@ public class Doubt {
 //arena
 
 //leetcode
-//1358
 
+//theory
+//video 53 js
+// ui and ux design
+//js map,filter,reduce ,how works internally
